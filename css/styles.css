@@ -1,3 +1,5 @@
+/* ↓ ↓ ↓ RESPONSIVE ↓ ↓ ↓ */
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
@@ -30,7 +32,6 @@
   }
 
 
-
   #myh2 {
     color: #fff;
     font-family: "Montserrat";
@@ -43,16 +44,10 @@
 
 
 
+/* ↓ ↓ ↓ GENERAL ↓ ↓ ↓ */
+
 #title {
   background-color: #ff4c68;
-}
-
-.myh1 {
-  color: #fff;
-  font-size: 4.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-  padding: 0px 0px;
 }
 
 .container {
@@ -63,7 +58,20 @@
   font-family: "Montserrat";
 }
 
-/* NAVIGATION BAR */
+/* ↓ ↓ ↓ TITLE ↓ ↓ ↓ */
+
+.h1-title {
+  color: #fff;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 0px 0px;
+}
+
+
+
+/* ↓ ↓ ↓ NAVIGATION BAR ↓ ↓ ↓ */
+
 #navbar {
   padding-bottom: 4.5rem;
 }
@@ -74,7 +82,9 @@
   font-weight: bold;
 }
 
-/*MENU ITENS PROPERTIES*/
+
+/* ↓ ↓ ↓ MENU ITENS PROPERTIES ↓ ↓ ↓ */
+
 .nav-item {
   padding: 0px 18px;
   font-size: 1.2rem;
@@ -88,12 +98,15 @@
   font-weight: 500;
 }
 
-/* DOWNLOAD BUTTONS */
+
+/*  ↓ ↓ ↓ DOWNLOAD BUTTONS  ↓ ↓ ↓ */
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
-/* TITLE IMAGE */
+/*  ↓ ↓ ↓ TITLE IMAGE  ↓ ↓ ↓ */
+
 .title-image {
   width: 40%;
   align-items: center;
@@ -101,7 +114,8 @@
   transform: rotate(25deg);
 }
 
-/* ZOOM LOGO TINDOR */
+/*  ↓ ↓ ↓ ZOOM LOGO TINDOR  ↓ ↓ ↓ */
+
 .zoomlogo {
   transition: transform .2s;
   /* Animation */
@@ -112,19 +126,21 @@
   transform: scale(1.6)
 }
 
-/* FEATURES */
+
+/*  ↓ ↓ ↓ FEATURES  ↓ ↓ ↓ */
+
 .feature-box {
   text-align: center;
   padding: 5%;
 }
 
-.myh3 {
+.h3-feature {
   font-size: 2.0rem;
   line-height: 1.5;
   font-weight: 700;
 }
 
-p {
+.p-features {
   color: #8f8f8f;
   line-height: 1.5;
   font-weight: 400;
@@ -140,6 +156,45 @@ p {
   color: #ff4c68;
 }
 
+/*  ↓ ↓ ↓ ARROW INDEX  ↓ ↓ ↓ */
+
+.arrow-index{
+  font-size: 3.0rem;
+  padding-bottom: 40px;
+  margin-left: 110%;
+  color: #ff4c68;
+
+}
+
+/* .container-bounce{
+  padding-top: 200px;
+
+}
+
+@-webkit-keyframes bounce {
+        0% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+
+  30%{
+    transform: scale(1,0.8) translate(0px, 10px);
+  }
+
+  75%{
+    transform: scale(1,1.1) translate(0px, -25px);
+  }
+
+ 100% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+}
+
+.bounce {
+     -webkit-animation: bounce 0.75s infinite;
+} */
+
+/*  ↓ ↓ ↓ TESTEMONIALS  ↓ ↓ ↓ */
+
 #testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -151,15 +206,13 @@ p {
   padding-bottom: 0px;
 }
 
-.press {
-  padding-top: 0px;
+.testemonials-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
-.myh2 {
+.h2-testemonials {
   color: #fff;
   font-family: "Montserrat";
   font-size: 3rem;
@@ -168,10 +221,15 @@ p {
   padding-bottom: 10px;
 }
 
-.testemonials-image {
-  border-radius: 100%;
-  margin: 20px;
-  width: 10%;
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/*  ↓ ↓ ↓ PRESS  ↓ ↓ ↓ */
+
+.press {
+  padding-top: 0px;
 }
 
 #press {
@@ -184,7 +242,10 @@ p {
   margin: 20px;
 }
 
-/* PRINCING SECTION */
+
+
+/*  ↓ ↓ ↓ PRINCING SECTION  ↓ ↓ ↓ */
+
 #pricing {
   padding: 50px;
   text-align: center;
@@ -198,14 +259,18 @@ p {
   padding-top: 50px;
 }
 
-/*CARD - PRICING*/
+
+/* ↓ ↓ ↓ CARD - PRICING ↓ ↓ ↓ */
+
 #card-header {
   background-color: #ff4c68;
   color: #fff;
   padding-top: 15px;
 }
 
-/* CTA */
+
+/*  ↓ ↓ ↓ CTA  ↓ ↓ ↓ */
+
 #cta {
   text-align: center;
   padding: 3% 25px;
@@ -213,7 +278,7 @@ p {
   padding-bottom: 0;
 }
 
-.myh3-2 {
+.h3-cta {
   color: #fff;
   font-family: "Montserrat";
   font-size: 3rem;
@@ -221,6 +286,9 @@ p {
   font-weight: 700;
   padding-bottom: 10px;
 }
+
+
+/*  ↓ ↓ ↓ FOOTER  ↓ ↓ ↓ */
 
 #footer {
   text-align: center;
