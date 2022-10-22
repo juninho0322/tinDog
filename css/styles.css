@@ -34,7 +34,7 @@
 
   #myh2 {
     color: #fff;
-    font-family: "Montserrat";
+    /* font-family: "Montserrat"; */
     font-size: 2rem;
     line-height: 1.5;
     font-weight: 700;
@@ -50,11 +50,12 @@
   background-color: #ff4c68;
 }
 
+
 .container {
   padding: 3%;
 }
 
-.body {
+.body, h1, h2, h3 {
   font-family: "Montserrat";
 }
 
@@ -158,16 +159,18 @@
 
 /*  ↓ ↓ ↓ ARROW INDEX  ↓ ↓ ↓ */
 
+/*
 .arrow-index{
   font-size: 3.0rem;
   padding-bottom: 40px;
   margin-left: 110%;
   color: #ff4c68;
 
-}
+} */
 
-/* .container-bounce{
+/*.container-bounce{
   padding-top: 200px;
+  z-index: 99;
 
 }
 
@@ -206,15 +209,15 @@
   padding-bottom: 0px;
 }
 
-.testemonials-image {
+.testimonials-image {
   border-radius: 100%;
   margin: 20px;
   width: 10%;
 }
 
-.h2-testemonials {
+.h2-testimonials {
   color: #fff;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
@@ -260,6 +263,8 @@
 }
 
 
+
+
 /* ↓ ↓ ↓ CARD - PRICING ↓ ↓ ↓ */
 
 #card-header {
@@ -280,7 +285,7 @@
 
 .h3-cta {
   color: #fff;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
